@@ -307,7 +307,6 @@ body.is-instant:after {
 
 .image.style1 .frame {
 	width: 100vw;
-	box-shadow: 0rem 0.5rem 0.625rem 0rem rgba(0,0,0,0.231);
 	transition: none;
 }
 
@@ -334,7 +333,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	color: #379FCC;
 	font-family: 'Inter', sans-serif;
 	font-size: 2.125em;
-	line-height: 1;
+	line-height: 1.25;
 	font-weight: 900;
 	background-image: linear-gradient(45deg, #D1C238 25%, #379FCC 100%);
 	-webkit-background-clip: text;
@@ -368,14 +367,14 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 
 #text03 {
 	text-transform: uppercase;
-	color: #6B878F;
+	color: #4B6870;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.075rem;
 	width: calc(100% + 0.075rem);
-	font-size: 1em;
+	font-size: 0.75em;
 	line-height: 2.125;
 	font-weight: 500;
-	background-image: linear-gradient(45deg, rgba(242,218,0,0.29) 0%, #6B878F 71%);
+	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #4B6870 71%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -400,21 +399,21 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text03 span.p {
-	background-image: linear-gradient(45deg, rgba(242,218,0,0.29) 0%, #6B878F 71%);
+	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #4B6870 71%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent !important;
 }
 
 #text02 {
 	text-transform: uppercase;
-	color: #ADA87B;
+	color: #4B6870;
 	font-family: 'Inter', sans-serif;
 	letter-spacing: 0.075rem;
 	width: calc(100% + 0.075rem);
 	font-size: 0.75em;
 	line-height: 2.125;
 	font-weight: 500;
-	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #ADA87B 71%);
+	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #4B6870 71%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -439,7 +438,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #text02 span.p {
-	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #ADA87B 71%);
+	background-image: linear-gradient(45deg, rgba(209,194,56,0.29) 0%, #4B6870 71%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent !important;
 }
@@ -563,11 +562,7 @@ hr:before {
 }
 
 #icons01 .n02 {
-	background-color: #224FF0;
-}
-
-#icons01 .n02 svg {
-	fill: #FFFFFF;
+	background-color: #BCDB40;
 }
 
 .container {
@@ -620,14 +615,14 @@ hr:before {
 	align-items: center;
 	justify-content: center;
 	background-color: #1F2A2E;
-	box-shadow: 0rem 1rem 1.125rem 0.25rem rgba(34,78,92,0.471);
+	box-shadow: 0rem 1rem 4.75rem 0rem rgba(34,78,92,0.471);
 	border-radius: 0.25rem;
 }
 
 #container01 > .wrapper > .inner {
 	--gutters: calc(var(--padding-horizontal) * 2);
-	--padding-horizontal: 1.875rem;
-	--padding-vertical: 1.625rem;
+	--padding-horizontal: 2.5rem;
+	--padding-vertical: 2.5rem;
 	--spacing: 1.625rem;
 	padding: var(--padding-vertical) var(--padding-horizontal);
 }
@@ -797,7 +792,7 @@ hr:before {
 	}
 	
 	.image.style1 .frame {
-		height: 21.40625rem !important;
+		height: 22.5rem !important;
 	}
 	
 	.image.style1 img {
@@ -811,7 +806,7 @@ hr:before {
 		letter-spacing: 0rem;
 		width: 100%;
 		font-size: 1.75em;
-		line-height: 1;
+		line-height: 1.25;
 	}
 	
 	#text03 {
@@ -824,8 +819,8 @@ hr:before {
 	#text02 {
 		letter-spacing: 0.065625rem;
 		width: calc(100% + 0.065625rem);
-		font-size: 0.75em;
-		line-height: 1.375;
+		font-size: 0.625em;
+		line-height: 1.625;
 	}
 	
 	#divider01:not(:first-child) {
@@ -851,7 +846,7 @@ hr:before {
 	
 	#container01 > .wrapper > .inner {
 		--gutters: calc(var(--padding-vertical) * 2);
-		--padding-horizontal: 1.875rem;
+		--padding-horizontal: 2rem;
 		--padding-vertical: 4rem;
 		--spacing: 1.625rem;
 	}
@@ -951,7 +946,7 @@ hr:before {
 	}
 	
 	.image.style1 .frame {
-		height: 17.125rem !important;
+		height: 18rem !important;
 	}
 	
 	#container01 > .wrapper > .inner {
@@ -967,7 +962,7 @@ hr:before {
 	}
 	
 	.image.style1 .frame {
-		height: 14.984375rem !important;
+		height: 15.75rem !important;
 	}
 	
 	#text01 {
@@ -979,7 +974,7 @@ hr:before {
 	}
 	
 	#text02 {
-		font-size: 0.75em;
+		font-size: 0.625em;
 	}
 	
 	#icons01 {
@@ -988,7 +983,7 @@ hr:before {
 	
 	#container01 > .wrapper > .inner {
 		--gutters: calc(var(--padding-vertical) * 2);
-		--padding-horizontal: 1.40625rem;
+		--padding-horizontal: 1.5rem;
 		--padding-vertical: 3rem;
 		--spacing: 1.21875rem;
 	}
